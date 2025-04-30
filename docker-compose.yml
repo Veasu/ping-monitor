@@ -39,7 +39,7 @@ services:
       - LOOP=true
       - LOOP_DELAY=1800
       - DB_SAVE=true
-      - DB_HOST=influxdb
+      - DB_HOST=http://influxdb:8086
       - DB_NAME=${INFLUXDB_DATABASE}
       - DB_USERNAME=${INFLUXDB_USERNAME}
       - DB_PASSWORD=${INFLUXDB_PASSWORD}
